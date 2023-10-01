@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Mateus Queirós",
   description: "Portfolio do desenvolvedor Mateus Queirós",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({

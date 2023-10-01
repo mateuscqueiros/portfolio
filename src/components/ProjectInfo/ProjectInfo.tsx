@@ -1,6 +1,7 @@
 import { IconBrandGithub } from "@tabler/icons-react";
 import { Access } from "../Access";
 import { Badge } from "../Badge";
+import { ExternalLink } from "../ExternalLink";
 
 interface ProjectInfoProps {
   link: string;
@@ -13,10 +14,10 @@ export function ProjectInfo({ link, github, badges }: ProjectInfoProps) {
     <div className="flex flex-row justify-between mb-3">
       <div className="flex flex-row gap-2">
         <Access link={link} />
-        {github && (
-          <a href="link">
+        {github !== undefined && (
+          <ExternalLink href={github}>
             <IconBrandGithub />
-          </a>
+          </ExternalLink>
         )}
       </div>
       <div className="flex flex-row gap-2">

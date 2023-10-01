@@ -5,7 +5,11 @@ import { Container } from "..";
 
 export function InfoBox() {
   return (
-    <Container id="hero" bg="bg-slate-400" style="col-span-1 lg:col-span-2">
+    <Container
+      id="hero"
+      bg="bg-secondary-color"
+      style="col-span-1 lg:col-span-2"
+    >
       <div id="hero" className="flex flex-col">
         <div className="flex flex-col gap-4 mb-5">
           <p>

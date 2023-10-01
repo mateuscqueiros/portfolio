@@ -3,6 +3,7 @@ import { Project } from "./types";
 const projects: Project[] = [
   {
     title: "Accountant",
+    github: "https://github.com/mateuscqueiros/accountant",
     badges: ["React", "Next", "Typescript"],
     image: "/screenshots/accountant.png",
     link: "https://accountant-mt.vercel.app",
@@ -13,6 +14,7 @@ const projects: Project[] = [
   },
   {
     title: "Script site",
+    github: "https://github.com/mateuscqueiros/script-website",
     badges: ["React", "Next"],
     image: "/screenshots/script-bot.png",
     link: "https://script-bot.vercel.app/",
@@ -22,6 +24,7 @@ const projects: Project[] = [
   },
   {
     title: "News Hacker",
+    github: "https://github.com/mateuscqueiros/news-hacker",
     badges: ["React", "Next"],
     image: "/screenshots/news-hacker.png",
     link: "https://news-hacker.vercel.app/",
@@ -36,6 +39,7 @@ const projects: Project[] = [
   },
   {
     title: "Nextjs Blog",
+    github: "https://github.com/mateuscqueiros/nextjs-blog",
     badges: ["React", "Next"],
     image: "/screenshots/nextjs-blog.png",
     link: "https://nextjs-mt.vercel.app",

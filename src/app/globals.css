@@ -4,14 +4,22 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --primary-color: #000;
+    --secondary-color: #1e293b;
+    --contrast-color: #4f46e5;
+
+    --button-bg-color: #4f46e5;
+    --butoon-bg-hover-color: #0f172a;
+
+    --text-color: #fff;
+
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 17, 23, 32;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--text-color);
   background: linear-gradient(
       to bottom,
       transparent,

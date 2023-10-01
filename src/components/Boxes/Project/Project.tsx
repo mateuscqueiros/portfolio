@@ -10,7 +10,7 @@ interface ProjectProps {
 
 export function Project({
   style = "",
-  data: { github, bg = "bg-slate-400", title, link, badges, text, image },
+  data: { github, bg = "bg-secondary-color", title, link, badges, text, image },
 }: ProjectProps) {
   const _id = title
     .replace(/([a-z])([A-Z])/g, "$1-$2")

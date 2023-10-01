@@ -16,6 +16,14 @@ const config: Config = {
       height: {
         "48": "12rem",
       },
+      colors: {
+        "primary-color": "var(--primary-color)",
+        "secondary-color": "var(--secondary-color)",
+        "contrast-color": "var(--contrast-color)",
+        "button-bg-color": "var(--button-bg-color)",
+        "butoon-bg-hover-color": "var(--butoon-bg-hover-color)",
+        "text-color": "var(--text-color)",
+      },
     },
   },
   plugins: [],

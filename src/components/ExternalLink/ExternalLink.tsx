@@ -11,7 +11,7 @@ export function ExternalLink({
 }: ExternalLinkProps) {
   return (
     <a
-      className={`${color ? "text-indigo-500" : ""}`}
+      className={`${color ? "text-contrast-color" : ""}`}
       href={href}
       target="_blank"
       rel="noopener noreferrer"

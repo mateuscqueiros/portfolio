@@ -9,7 +9,7 @@ export function ExternalLink({ href, children }: ExternalLinkProps) {
       className="text-contrast-color"
       href={href}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer "
     >
       {children}
     </a>

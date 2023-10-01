@@ -1,6 +1,6 @@
 import { Project } from "./types";
 
-const projects: Project[] = [
+export const projects: Project[] = [
   {
     title: "Accountant",
     github: "https://github.com/mateuscqueiros/accountant",
@@ -47,4 +47,17 @@ const projects: Project[] = [
   },
 ];
 
-export default projects;
+export const socials = {
+  github: {
+    name: "Github",
+    link: "https://github.com/mateuscqueiros",
+  },
+  linkedin: {
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/mateus-queir%C3%B3s-215a671a6/",
+  },
+  email: {
+    name: "Email",
+    link: "mailto:mateuscqueiros@gmail.com",
+  },
+};

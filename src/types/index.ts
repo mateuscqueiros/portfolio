@@ -1,1 +1,1 @@
-export type { Project } from "./project.types";
+export type { Project } from "./meta.types";

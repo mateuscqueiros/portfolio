@@ -23,6 +23,7 @@ const config: Config = {
         "button-bg-color": "var(--button-bg-color)",
         "butoon-bg-hover-color": "var(--butoon-bg-hover-color)",
         "text-color": "var(--text-color)",
+        "badge-color": "var(--badge-color)",
       },
     },
   },

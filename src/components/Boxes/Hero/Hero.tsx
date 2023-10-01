@@ -1,8 +1,40 @@
 import { ButtonDefault } from "@/components/Buttons";
+import { ExternalLink } from "@/components/ExternalLink";
+import { H } from "@/components/Highlight";
 import { IconLinkedin } from "@/components/Icons";
 import { IconGithub } from "@/components/Icons/IconGithub/IconGithub";
 import Image from "next/image";
+import { socials } from "src/meta";
 import { Container } from "..";
+
+const tecnologies: string[] = [
+  "React",
+  "Next",
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Typescript",
+  "TailwindCSS",
+  "pré-processadores CSS",
+  "Express",
+  "REST APIs",
+  "NestJS",
+  "Prisma",
+  "Docker",
+];
+
+function renderList(arr: string[]) {
+  return arr.map((tech, index, arr) => {
+    let isLast = index === arr.length - 1;
+    return (
+      <>
+        {isLast && <span>e </span>}
+        <H>{tech}</H>
+        {!isLast && <span>, </span>}
+      </>
+    );
+  });
+}
 
 export function HeroBox() {
   return (
@@ -12,46 +44,55 @@ export function HeroBox() {
       style="col-span-1 lg:col-span-2"
     >
       <div id="hero" className="flex flex-col">
-        <div className="flex flex-row mb-6">
+        <div className="w-full flex flex-col items-center md:w-fit mb-6">
           <Image
             src="/selfie_4.jpg"
             width={100}
             height={100}
             alt="Mateus Queirós"
-            className="rounded-full mr-8"
+            className="rounded-full lg:mr-8 "
           />
         </div>
-        <div className="mb-6">
-          <div id="profile-info" className="flex flex-col">
-            <h1 className="text-3xl font-bold">Mateus Queirós</h1>
-            <p>Desenvolvedor de software</p>
-          </div>
+
+        <div id="profile-info" className="flex flex-col w-full md:w-fit mb-6">
+          <h1 className="text-3xl font-bold w-full text-center md:text-left">
+            Mateus Queirós
+          </h1>
+          <p className="w-full text-center md:text-left">
+            Desenvolvedor de software
+          </p>
+          <p className="w-full text-center md:text-left">
+            Estudante de Engenharia de Software
+          </p>
         </div>
 
-        <div className="flex flex-row flex-wrap gap-4 mb-5">
+        <div className="flex flex-row justify-center flex-wrap w-full md:w-fit gap-4 mb-5">
           <ButtonDefault
             text="Github"
             icon={<IconGithub />}
-            link="https://github.com/mateuscqueiros"
+            link={socials.github.link}
           />
           <ButtonDefault
             text="Linkedin"
             icon={<IconLinkedin />}
-            link="https://www.linkedin.com/in/mateus-queir%C3%B3s-215a671a6/"
+            link={socials.linkedin.link}
           />
         </div>
         <div className="flex flex-col gap-4">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            rem molestiae! Ad quam consequatur debitis, consectetur magni
-            perspiciatis consequuntur voluptatem, quibusdam asperiores
-            blanditiis magnam. Fugit voluptate vero cupiditate dolor.
+            Programador desde os 14 anos, aficionado por tecnologia e
+            desenvolvedor adaptável. Sou um desenvolvedor de software com foco
+            no ecossistema <H>Node</H>, <H>Front-end</H> e Back-end. Confira os
+            meus <ExternalLink href="">posts no Linkedin</ExternalLink> para ver
+            o qu estou estudando atualmente. Gosto muito de aprender novas
+            tecnologias e estar por dentro das novidades.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            rem molestiae! Ad quam consequatur debitis, consectetur magni
-            perspiciatis consequuntur voluptatem, quibusdam asperiores
-            blanditiis magnam. Fugit voluptate vero cupiditate dolor.
+            Algumas das tecnologias que domino: {renderList(tecnologies)}. Além
+            disso tenho uma base forte em <H>Lógica de programação</H>, sendo
+            assim se você tiver algum projeto ou oportunidade em <H>Java</H>,{" "}
+            <H>C</H>, <H>PHP</H> ou outra linguagem que não esteja incluída na
+            lista acima, não deixe de entrar em contato!
           </p>
         </div>
       </div>

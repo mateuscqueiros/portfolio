@@ -1,6 +1,8 @@
 import { ButtonDefault } from "@/components/Buttons";
 import { ExternalLink } from "@/components/ExternalLink";
+import { H } from "@/components/Highlight";
 import { IconMail } from "@/components/Icons";
+import { socials } from "src/meta";
 import { Container } from "..";
 
 export function InfoBox() {
@@ -23,6 +25,11 @@ export function InfoBox() {
             melhor e futuramente um Engenheiro de Software!
           </p>
           <p>
+            Outras tecnologias que já estudei: <H>Redux</H>,{" "}
+            <H>Context API do React</H>, além de outras linguagens de
+            programação para expandir minha formação.
+          </p>
+          <p>
             Se você está aqui para contratar ou quer marcar algum projeto, pode
             me contatar pelos links no início da página ou pelos abaixo.
           </p>
@@ -32,7 +39,7 @@ export function InfoBox() {
           <ButtonDefault
             text="Email"
             icon={<IconMail />}
-            link="mailto:mateuscqueiros@gmail.com"
+            link={socials.email.link}
           />
         </div>
       </div>

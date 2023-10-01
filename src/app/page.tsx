@@ -1,6 +1,6 @@
 import { HeroBox, InfoBox, Project } from "@/components/Boxes";
 import { Footer } from "@/components/Footer";
-import projects from "src/projects";
+import { projects } from "src/meta";
 
 export default function Home() {
   return (

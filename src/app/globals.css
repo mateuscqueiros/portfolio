@@ -6,12 +6,13 @@
   :root {
     --primary-color: #000;
     --secondary-color: #1e293b;
-    --contrast-color: #4f46e5;
+    --contrast-color: #5094ed;
 
     --button-bg-color: #4f46e5;
     --butoon-bg-hover-color: #0f172a;
 
     --text-color: #fff;
+    --badge-color: #4f46e5;
 
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 17, 23, 32;

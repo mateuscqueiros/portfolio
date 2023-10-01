@@ -20,7 +20,7 @@ export function ProjectInfo({ link, github, badges }: ProjectInfoProps) {
           </ExternalLink>
         )}
       </div>
-      <div className="flex flex-row gap-2">
+      <div className="flex flex-row flex-wrap gap-2">
         {badges.map((badge) => (
           <Badge key={badge + Math.random()} label={badge} />
         ))}

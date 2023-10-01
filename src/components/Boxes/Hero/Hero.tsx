@@ -1,5 +1,6 @@
 import { ButtonDefault } from "@/components/Buttons";
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import { IconLinkedin } from "@/components/Icons";
+import { IconGithub } from "@/components/Icons/IconGithub/IconGithub";
 import Image from "next/image";
 import { Container } from "..";
 
@@ -30,12 +31,12 @@ export function HeroBox() {
         <div className="flex flex-row flex-wrap gap-4 mb-5">
           <ButtonDefault
             text="Github"
-            icon={<IconBrandGithub />}
+            icon={<IconGithub />}
             link="https://github.com/mateuscqueiros"
           />
           <ButtonDefault
             text="Linkedin"
-            icon={<IconBrandLinkedin />}
+            icon={<IconLinkedin />}
             link="https://www.linkedin.com/in/mateus-queir%C3%B3s-215a671a6/"
           />
         </div>

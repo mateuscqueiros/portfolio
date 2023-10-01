@@ -1,6 +1,6 @@
 import { ButtonDefault } from "@/components/Buttons";
 import { ExternalLink } from "@/components/ExternalLink";
-import { IconMail } from "@tabler/icons-react";
+import { IconMail } from "@/components/Icons";
 import { Container } from "..";
 
 export function InfoBox() {
@@ -16,10 +16,7 @@ export function InfoBox() {
             Recentemente tenho estudado <b>Next 13</b> e migrando minhas
             aplicações para essa tecnologia. Recentemente me tornei um
             contribuidor <b>Open Source</b> para a biblioteca{" "}
-            <ExternalLink
-              text={true}
-              href="https://github.com/mantinedev/mantine"
-            >
+            <ExternalLink href="https://github.com/mantinedev/mantine">
               <b>Mantine</b>
             </ExternalLink>
             . Pretendo continuar estudando para me tornar um desenvolvedor

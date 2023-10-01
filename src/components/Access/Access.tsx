@@ -1,5 +1,5 @@
-import { IconExternalLink } from "@tabler/icons-react";
 import { ExternalLink } from "../ExternalLink";
+import { IconExternal } from "../Icons";
 
 interface AccessProp {
   link: string;
@@ -8,7 +8,7 @@ interface AccessProp {
 export function Access({ link }: AccessProp) {
   return (
     <ExternalLink href={link}>
-      <IconExternalLink />
+      <IconExternal />
     </ExternalLink>
   );
 }

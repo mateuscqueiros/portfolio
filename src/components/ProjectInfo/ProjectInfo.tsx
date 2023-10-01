@@ -1,7 +1,7 @@
-import { IconBrandGithub } from "@tabler/icons-react";
 import { Access } from "../Access";
 import { Badge } from "../Badge";
 import { ExternalLink } from "../ExternalLink";
+import { IconGithub } from "../Icons";
 
 interface ProjectInfoProps {
   link: string;
@@ -16,7 +16,7 @@ export function ProjectInfo({ link, github, badges }: ProjectInfoProps) {
         <Access link={link} />
         {github !== undefined && (
           <ExternalLink href={github}>
-            <IconBrandGithub />
+            <IconGithub />
           </ExternalLink>
         )}
       </div>

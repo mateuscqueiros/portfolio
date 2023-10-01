@@ -17,7 +17,7 @@ function ButtonContent({
       className={`${bg} border-sm border-contrast-color rounded-md flex flex-row py-2 px-4 transition ease-in-out hover:bg-butoon-bg-hover-color hover:-translate-y-0.5 duration-300`}
     >
       {icon}
-      <div className="ml-2 font-thin">{text}</div>
+      <div className="ml-2 no-underline font-thin text-text-color">{text}</div>
     </div>
   );
 }

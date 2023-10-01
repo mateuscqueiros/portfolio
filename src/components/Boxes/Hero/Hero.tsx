@@ -80,16 +80,17 @@ export function HeroBox() {
         </div>
         <div className="flex flex-col gap-4">
           <p>
-            Programador desde os 14 anos, aficionado por tecnologia e
-            desenvolvedor adaptável. Sou um desenvolvedor de software com foco
-            no ecossistema <H>Node</H>, <H>Front-end</H> e Back-end. Confira os
-            meus <ExternalLink href="">posts no Linkedin</ExternalLink> para ver
-            o qu estou estudando atualmente. Gosto muito de aprender novas
+            Programador desde há 5 anos (desde os 14), aficionado por tecnologia
+            e desenvolvedor adaptável. Sou um desenvolvedor de software com foco
+            no ecossistema <H>Node</H>, <H>Front-end</H> e <H>Back-end</H>.
+            Confira os meus{" "}
+            <ExternalLink href="">posts no Linkedin</ExternalLink> para ver o qu
+            estou estudando atualmente. Gosto muito de aprender novas
             tecnologias e estar por dentro das novidades.
           </p>
           <p>
             Algumas das tecnologias que domino: {renderList(tecnologies)}. Além
-            disso tenho uma base forte em <H>Lógica de programação</H>, sendo
+            disso tenho uma base forte em <H>lógica de programação</H>, sendo
             assim se você tiver algum projeto ou oportunidade em <H>Java</H>,{" "}
             <H>C</H>, <H>PHP</H> ou outra linguagem que não esteja incluída na
             lista acima, não deixe de entrar em contato!

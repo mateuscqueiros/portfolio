@@ -26,8 +26,15 @@ export function Project({
         </div>
         <div className=" flex flex-col align-middle gap-4 h-fit mt-10">
           <ProjectInfo github={github} link={link} badges={badges} />
-          <div className="relative w-full h-48">
-            <Image src={image} layout="fill" objectFit="contain" alt={title} />
+          <div className="relative w-full max-w-full min-w-0 overflow-hidden shrink-0 shadow-lg rounded-lg">
+            <Image
+              src={image}
+              width={300}
+              height={300}
+              className="w-full object-cover"
+              alt={title}
+              priority
+            />
           </div>
         </div>
       </div>

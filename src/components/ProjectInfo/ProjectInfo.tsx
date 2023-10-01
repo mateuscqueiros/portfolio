@@ -11,7 +11,7 @@ interface ProjectInfoProps {
 
 export function ProjectInfo({ link, github, badges }: ProjectInfoProps) {
   return (
-    <div className="flex flex-row justify-between mb-3">
+    <div className="flex flex-row flex-wrap justify-between mb-3 gap-2">
       <div className="flex flex-row gap-2">
         <Access link={link} />
         {github !== undefined && (

@@ -27,7 +27,7 @@ export function HeroBox() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-4 mb-5">
+        <div className="flex flex-row flex-wrap gap-4 mb-5">
           <ButtonDefault
             text="Github"
             icon={<IconBrandGithub />}

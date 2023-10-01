@@ -9,7 +9,7 @@ export default function Home() {
         <HeroBox />
 
         {projects.map((project) => (
-          <Project data={{ ...project }} />
+          <Project key={project.link} data={{ ...project }} />
         ))}
 
         <InfoBox />

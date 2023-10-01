@@ -1,11 +1,21 @@
 interface ExternalLinkProps {
+  color?: boolean;
   href: string;
   children: React.ReactNode;
 }
 
-export function ExternalLink({ href, children }: ExternalLinkProps) {
+export function ExternalLink({
+  color = false,
+  href,
+  children,
+}: ExternalLinkProps) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a
+      className={`${color ? "text-indigo-500" : ""}`}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       {children}
     </a>
   );

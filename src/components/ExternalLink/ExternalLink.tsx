@@ -1,17 +1,17 @@
 interface ExternalLinkProps {
-  color?: boolean;
+  text?: boolean;
   href: string;
   children: React.ReactNode;
 }
 
 export function ExternalLink({
-  color = false,
+  text = false,
   href,
   children,
 }: ExternalLinkProps) {
   return (
     <a
-      className={`${color ? "text-contrast-color" : ""}`}
+      className={`${text ? "text-contrast-color hover:underline" : ""}`}
       href={href}
       target="_blank"
       rel="noopener noreferrer"

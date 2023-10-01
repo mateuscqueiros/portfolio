@@ -16,7 +16,10 @@ export function InfoBox() {
             Recentemente tenho estudado <b>Next 13</b> e migrando minhas
             aplicações para essa tecnologia. Recentemente me tornei um
             contribuidor <b>Open Source</b> para a biblioteca{" "}
-            <ExternalLink href="https://github.com/mantinedev/mantine">
+            <ExternalLink
+              text={true}
+              href="https://github.com/mantinedev/mantine"
+            >
               <b>Mantine</b>
             </ExternalLink>
             . Pretendo continuar estudando para me tornar um desenvolvedor

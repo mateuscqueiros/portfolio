@@ -6,7 +6,7 @@ export function Footer() {
       <p>
         Feito com &#60;3, Next.js e TailwindCSS. Deploy feito na Vercel. Ver{" "}
         <ExternalLink
-          color={true}
+          text={true}
           href="https://github.com/mateuscqueiros/portfolio"
         >
           código-fonte

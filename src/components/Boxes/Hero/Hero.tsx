@@ -17,6 +17,7 @@ const tecnologies: string[] = [
   "TailwindCSS",
   "pré-processadores CSS",
   "Express",
+  "Jest (e outros testes unitários)",
   "REST APIs",
   "NestJS",
   "Prisma",
@@ -26,11 +27,13 @@ const tecnologies: string[] = [
 function renderList(arr: string[]) {
   return arr.map((tech, index, arr) => {
     let isLast = index === arr.length - 1;
+    let isFirstToLast = index === arr.length - 2;
     return (
       <>
         {isLast && <span>e </span>}
         <H>{tech}</H>
-        {!isLast && <span>, </span>}
+        {!isLast && !isFirstToLast && <span>, </span>}
+        {isFirstToLast && <span> </span>}
       </>
     );
   });
@@ -80,13 +83,15 @@ export function HeroBox() {
         </div>
         <div className="flex flex-col gap-4">
           <p>
-            Programador desde há 5 anos (desde os 14), aficionado por tecnologia
-            e desenvolvedor adaptável. Sou um desenvolvedor de software com foco
+            Programador há 5 anos (desde os 14), aficionado por tecnologia e
+            desenvolvedor adaptável. Sou um desenvolvedor de software com foco
             no ecossistema <H>Node</H>, <H>Front-end</H> e <H>Back-end</H>.
             Confira os meus{" "}
-            <ExternalLink href="">posts no Linkedin</ExternalLink> para ver o qu
-            estou estudando atualmente. Gosto muito de aprender novas
-            tecnologias e estar por dentro das novidades.
+            <ExternalLink href={socials.linkedin.link}>
+              posts no Linkedin
+            </ExternalLink>{" "}
+            para ver o que estou estudando atualmente. Gosto muito de aprender
+            novas tecnologias e estar por dentro das novidades.
           </p>
           <p>
             Algumas das tecnologias que domino: {renderList(tecnologies)}. Além

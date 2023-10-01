@@ -26,7 +26,7 @@ export function InfoBox() {
           </p>
           <p>
             Outras tecnologias que já estudei: <H>Redux</H>,{" "}
-            <H>Context API do React</H>, além de outras linguagens de
+            <H>Context API do React</H>, <H>Bun</H> além de outras linguagens de
             programação para expandir minha formação.
           </p>
           <p>

@@ -14,8 +14,8 @@
     --text-color: #fff;
     --badge-color: #4f46e5;
 
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 17, 23, 32;
+    --background-start-rgb: 10, 10, 10;
+    --background-end-rgb: 10, 20, 40;
   }
 }
 
@@ -27,4 +27,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }

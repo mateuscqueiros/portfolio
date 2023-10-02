@@ -1,5 +1,5 @@
 import { ButtonDefault } from "@/components/Buttons";
-import { ExternalLink } from "@/components/ExternalLink";
+import { ExtLink } from "@/components/ExternalLink";
 import { H } from "@/components/Highlight";
 import { IconLinkedin } from "@/components/Icons";
 import { IconGithub } from "@/components/Icons/IconGithub/IconGithub";
@@ -83,9 +83,9 @@ export function HeroBox() {
             desenvolvedor adaptável. Sou um desenvolvedor de software com foco
             no ecossistema <H>Node</H>, <H>Front-end</H> e <H>Back-end</H>.
             Confira os meus{" "}
-            <ExternalLink href={socials.linkedin.link}>
+            <ExtLink href={socials.linkedin.link}>
               <H>posts no Linkedin</H>
-            </ExternalLink>{" "}
+            </ExtLink>{" "}
             para ver o que estou estudando atualmente. Gosto muito de aprender
             novas tecnologias e estar por dentro das novidades.
           </p>

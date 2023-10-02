@@ -1,6 +1,5 @@
+import { CardTitle, Container } from "@/components/Boxes/Container";
 import Image from "next/image";
-import { Container } from "..";
-import { CardTitle } from "../Container/CardTitle/CardTitle";
 
 export function BunBox() {
   return (

@@ -1,7 +1,7 @@
-import { Access } from "../../../Access";
-import { Badge } from "../../../Badge";
-import { ExternalLink } from "../../../ExternalLink";
-import { IconGithub } from "../../../Icons";
+import { Access } from "@/components/Access";
+import { Badge } from "@/components/Badge";
+import { ExtLink } from "@/components/ExternalLink";
+import { IconGithub } from "@/components/Icons";
 
 interface CardInfoProps {
   link?: string;
@@ -15,9 +15,9 @@ export function CardInfo({ link, github, badges }: CardInfoProps) {
       <div className="flex flex-row gap-2">
         {link && <Access link={link} />}
         {github !== undefined && (
-          <ExternalLink href={github}>
+          <ExtLink href={github}>
             <IconGithub />
-          </ExternalLink>
+          </ExtLink>
         )}
       </div>
       <div className="flex flex-row flex-wrap gap-2">

@@ -1,4 +1,4 @@
-import { ExternalLink } from "@/components/ExternalLink";
+import { ExtLink } from "@/components/ExternalLink";
 import { IconExternal } from "@/components/Icons";
 
 interface ProjectProps {
@@ -12,9 +12,9 @@ export function CardTitle({ children, color, link }: ProjectProps) {
     <div className="flex flex-row justify-between">
       <div className={`mb-6 font-mono uppercase ${color}`}>{children}</div>
       {link && (
-        <ExternalLink href="/">
+        <ExtLink href="/">
           <IconExternal />
-        </ExternalLink>
+        </ExtLink>
       )}
     </div>
   );

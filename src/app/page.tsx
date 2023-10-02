@@ -1,4 +1,5 @@
-import { HeroBox, InfoBox, Project } from "@/components/Boxes";
+import { Project } from "@/components/Boxes/Content";
+import { HeroBox, InfoBox } from "@/components/Boxes/Main";
 import { Footer } from "@/components/Footer";
 import { projects } from "src/meta";
 

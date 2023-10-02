@@ -1,4 +1,4 @@
-import { ExtLink } from "../ExternalLink";
+import { ExtLink } from "@/components/ExternalLink";
 
 export function Footer() {
   return (

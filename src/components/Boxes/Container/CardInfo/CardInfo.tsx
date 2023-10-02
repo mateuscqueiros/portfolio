@@ -1,7 +1,7 @@
-import { Access } from "../../../Access";
-import { Badge } from "../../../Badge";
-import { ExtLink } from "../../../ExternalLink";
-import { IconGithub } from "../../../Icons";
+import { Access } from "@/components/Access";
+import { Badge } from "@/components/Badge";
+import { ExtLink } from "@/components/ExternalLink";
+import { IconGithub } from "@/components/Icons";
 
 interface CardInfoProps {
   link?: string;

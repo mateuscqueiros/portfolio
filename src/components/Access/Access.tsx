@@ -1,5 +1,5 @@
-import { ExtLink } from "../ExternalLink";
-import { IconExternal } from "../Icons";
+import { ExtLink } from "@/components/ExternalLink";
+import { IconExternal } from "@/components/Icons";
 
 interface AccessProp {
   link: string;

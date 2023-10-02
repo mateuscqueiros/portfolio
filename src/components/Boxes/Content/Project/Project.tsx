@@ -1,8 +1,6 @@
+import { CardInfo, CardTitle, Container } from "@/components/Boxes/Container";
 import Image from "next/image";
 import { Project } from "src/types";
-import { Container } from "..";
-import { CardInfo } from "../Container/CardInfo/CardInfo";
-import { CardTitle } from "../Container/CardTitle/CardTitle";
 
 interface ProjectProps {
   style?: string;

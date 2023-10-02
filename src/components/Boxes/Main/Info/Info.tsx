@@ -3,7 +3,7 @@ import { ExternalLink } from "@/components/ExternalLink";
 import { H } from "@/components/Highlight";
 import { IconMail } from "@/components/Icons";
 import { socials } from "src/meta";
-import { Container } from "..";
+import { Container } from "../..";
 
 export function InfoBox() {
   return (
@@ -11,11 +11,11 @@ export function InfoBox() {
       <div id="hero" className="flex flex-col">
         <div className="flex flex-col gap-4 mb-5">
           <p>
-            Recentemente tenho estudado <b>Next 13</b> e migrando minhas
-            aplicações para essa tecnologia. Recentemente me tornei um
-            contribuidor <b>Open Source</b> para a biblioteca{" "}
+            Tenho estudado <b>Next 13</b> e migrando minhas aplicações para essa
+            tecnologia. Recentemente me tornei um contribuidor{" "}
+            <H bold>Open Source</H> para a biblioteca{" "}
             <ExternalLink href="https://github.com/mantinedev/mantine">
-              <b>Mantine</b>
+              <H bold>Mantine</H>
             </ExternalLink>
             . Pretendo continuar estudando para me tornar um desenvolvedor
             melhor e futuramente um Engenheiro de Software!

@@ -11,6 +11,7 @@ export default function Home() {
         {projects.map((project) => (
           <Project key={project.link} data={{ ...project }} />
         ))}
+        {/* <BunBox /> */}
 
         <InfoBox />
       </main>

@@ -6,7 +6,7 @@ interface ExternalLinkProps {
 export function ExternalLink({ href, children }: ExternalLinkProps) {
   return (
     <a
-      className="text-secondary-color"
+      className="text-inherit"
       href={href}
       target="_blank"
       rel="noopener noreferrer "

@@ -1,4 +1,4 @@
+export * from "./Bun/Bun";
 export * from "./Container/Container";
-export * from "./Hero/Hero";
-export * from "./Info/Info";
+export * from "./Main";
 export * from "./Project/Project";

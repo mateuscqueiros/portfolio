@@ -5,7 +5,7 @@ import { IconLinkedin } from "@/components/Icons";
 import { IconGithub } from "@/components/Icons/IconGithub/IconGithub";
 import Image from "next/image";
 import { socials } from "src/meta";
-import { Container } from "..";
+import { Container } from "../..";
 
 const tecnologies: string[] = [
   "React",
@@ -84,7 +84,7 @@ export function HeroBox() {
             no ecossistema <H>Node</H>, <H>Front-end</H> e <H>Back-end</H>.
             Confira os meus{" "}
             <ExternalLink href={socials.linkedin.link}>
-              posts no Linkedin
+              <H>posts no Linkedin</H>
             </ExternalLink>{" "}
             para ver o que estou estudando atualmente. Gosto muito de aprender
             novas tecnologias e estar por dentro das novidades.

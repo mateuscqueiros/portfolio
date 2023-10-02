@@ -1,7 +1,8 @@
-import { ProjectInfo } from "@/components/ProjectInfo";
 import Image from "next/image";
 import { Project } from "src/types";
 import { Container } from "..";
+import { CardInfo } from "../Container/CardInfo/CardInfo";
+import { CardTitle } from "../Container/CardTitle/CardTitle";
 
 interface ProjectProps {
   style?: string;
@@ -21,11 +22,11 @@ export function Project({
     <Container id={_id} bg={bg} style={`col-span-1 ${style}`}>
       <div className="flex flex-col justify-between h-full">
         <div>
-          <div className="mb-6 font-mono uppercase">{title}</div>
+          <CardTitle>{title}</CardTitle>
           <p>{text}</p>
         </div>
         <div className=" flex flex-col align-middle gap-4 h-fit mt-10">
-          <ProjectInfo github={github} link={link} badges={badges} />
+          <CardInfo github={github} link={link} badges={badges} />
           <div className="relative w-full max-w-full min-w-0 overflow-hidden shrink-0 shadow-lg rounded-lg">
             <Image
               src={image}

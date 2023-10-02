@@ -54,7 +54,7 @@ export const socials = {
   },
   linkedin: {
     name: "Linkedin",
-    link: "https://www.linkedin.com/in/mateus-queir%C3%B3s-215a671a6/",
+    link: "https://www.linkedin.com/in/mateuscqueiros/",
   },
   email: {
     name: "Email",

@@ -1,4 +1,4 @@
-import { ExternalLink } from "@/components/ExternalLink";
+import { ExtLink } from "@/components/ExternalLink";
 
 interface ButtonDefaultProps {
   icon: JSX.Element;
@@ -28,14 +28,14 @@ export function ButtonDefault({
 }: ButtonDefaultProps) {
   if (link !== undefined) {
     return (
-      <ExternalLink href={link}>
+      <ExtLink href={link}>
         <ButtonContent
           data={{
             icon,
             text,
           }}
         />
-      </ExternalLink>
+      </ExtLink>
     );
   }
   return (

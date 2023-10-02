@@ -1,5 +1,5 @@
-import { ExternalLink } from "../ExternalLink";
-import { IconExternal } from "../Icons";
+import { ExtLink } from "@/components/ExternalLink";
+import { IconExternal } from "@/components/Icons";
 
 interface AccessProp {
   link: string;
@@ -7,8 +7,8 @@ interface AccessProp {
 
 export function Access({ link }: AccessProp) {
   return (
-    <ExternalLink href={link}>
+    <ExtLink href={link}>
       <IconExternal />
-    </ExternalLink>
+    </ExtLink>
   );
 }

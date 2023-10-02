@@ -1,9 +1,9 @@
-interface ExternalLinkProps {
+interface ExtLinkProps {
   href: string;
   children: React.ReactNode;
 }
 
-export function ExternalLink({ href, children }: ExternalLinkProps) {
+export function ExtLink({ href, children }: ExtLinkProps) {
   return (
     <a
       className="text-inherit"

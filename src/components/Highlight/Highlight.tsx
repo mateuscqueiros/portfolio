@@ -1,5 +1,17 @@
 import { ReactNode } from "react";
 
-export function H({ children }: { children: ReactNode }) {
-  return <span className="text-contrast-color">{children}</span>;
+interface HighlightProps {
+  children: ReactNode;
+  bold?: boolean;
+}
+
+export function H({ children, bold = false }: HighlightProps) {
+  if (bold) {
+    return (
+      <span className="text-secondary-color">
+        <b>{children}</b>
+      </span>
+    );
+  }
+  return <span className="text-secondary-color">{children}</span>;
 }

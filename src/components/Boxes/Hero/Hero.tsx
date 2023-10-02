@@ -29,23 +29,19 @@ function renderList(arr: string[]) {
     let isLast = index === arr.length - 1;
     let isFirstToLast = index === arr.length - 2;
     return (
-      <>
+      <span key={tech}>
         {isLast && <span>e </span>}
         <H>{tech}</H>
         {!isLast && !isFirstToLast && <span>, </span>}
         {isFirstToLast && <span> </span>}
-      </>
+      </span>
     );
   });
 }
 
 export function HeroBox() {
   return (
-    <Container
-      id="hero"
-      bg="bg-secondary-color"
-      style="col-span-1 lg:col-span-2"
-    >
+    <Container id="hero" bg="bg-primary-color" style="col-span-1 lg:col-span-2">
       <div id="hero" className="flex flex-col">
         <div className="w-full flex flex-col items-center md:w-fit mb-6">
           <Image

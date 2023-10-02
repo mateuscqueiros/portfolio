@@ -6,7 +6,7 @@ interface ExternalLinkProps {
 export function ExternalLink({ href, children }: ExternalLinkProps) {
   return (
     <a
-      className="text-contrast-color"
+      className="text-secondary-color"
       href={href}
       target="_blank"
       rel="noopener noreferrer "

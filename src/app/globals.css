@@ -4,29 +4,59 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #000;
-    --secondary-color: #1e293b;
-    --contrast-color: #5094ed;
+    --primary-color: #090f16;
+    --secondary-color: #5094ed;
 
-    --button-bg-color: #4f46e5;
-    --butoon-bg-hover-color: #0f172a;
+    --button-bg-color: #ff0000;
+    --butoon-bg-hover-color: #1568d5;
 
     --text-color: #fff;
-    --badge-color: #4f46e5;
+    --badge-bg-color: #1568d5;
+    --badge-color: #fff;
 
-    --background-start-rgb: 10, 10, 10;
-    --background-end-rgb: 10, 20, 40;
+    --background-start-rgb: #0c192a;
+    --background-end-rgb: #15263d;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #ffffffed;
+    --secondary-color: #1568d5;
+
+    --button-bg-color: transparent;
+    --butoon-bg-hover-color: #1568d5;
+
+    --text-color: #000000;
+    --badge-bg-color: #1568d5ea;
+    --badge-color: #ffffff;
+
+    --background-start-rgb: #d3d3d3;
+    --background-end-rgb: #c1d2e9;
   }
 }
 
 body {
+  font-family: "Inter";
   color: var(--text-color);
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom left,
+    var(--background-start-rgb),
+    var(--background-end-rgb)
+  );
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+blockquote,
+body,
+input,
+li,
+p,
+span,
+textarea {
+  line-height: 1.8;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight: 400;
+  font-display: block;
 }

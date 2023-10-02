@@ -28,7 +28,7 @@ export const projects: Project[] = [
     badges: ["React", "Next"],
     image: "/screenshots/news-hacker.png",
     link: "https://news-hacker.vercel.app/",
-    text: `Quando descobri que a Hacker News tinha uma API, decidi fazer esse site pra testar! Muito nostálgico pra mim ver ele hoje em dia.`,
+    text: `Quando descobri que a Hacker News tinha uma API, decidi fazer esse site pra testar! Ver ele hoje em dia é bem nostálgico para mim.`,
   },
   {
     title: "Novitar",

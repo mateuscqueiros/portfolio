@@ -1,5 +1,5 @@
 import { ButtonDefault } from "@/components/Buttons";
-import { ExternalLink } from "@/components/ExternalLink";
+import { ExtLink } from "@/components/ExternalLink";
 import { H } from "@/components/Highlight";
 import { IconMail } from "@/components/Icons";
 import { socials } from "src/meta";
@@ -11,12 +11,12 @@ export function InfoBox() {
       <div id="hero" className="flex flex-col">
         <div className="flex flex-col gap-4 mb-5">
           <p>
-            Tenho estudado <b>Next 13</b> e migrando minhas aplicações para essa
+            Tenho estudado <H>Next 13</H> e migrado minhas aplicações para essa
             tecnologia. Recentemente me tornei um contribuidor{" "}
             <H bold>Open Source</H> para a biblioteca{" "}
-            <ExternalLink href="https://github.com/mantinedev/mantine">
-              <H bold>Mantine</H>
-            </ExternalLink>
+            <ExtLink href="https://github.com/mantinedev/mantine">
+              <H>Mantine</H>
+            </ExtLink>
             . Pretendo continuar estudando para me tornar um desenvolvedor
             melhor e futuramente um Engenheiro de Software!
           </p>

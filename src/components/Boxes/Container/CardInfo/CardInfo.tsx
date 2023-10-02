@@ -1,6 +1,6 @@
 import { Access } from "../../../Access";
 import { Badge } from "../../../Badge";
-import { ExternalLink } from "../../../ExternalLink";
+import { ExtLink } from "../../../ExternalLink";
 import { IconGithub } from "../../../Icons";
 
 interface CardInfoProps {
@@ -15,9 +15,9 @@ export function CardInfo({ link, github, badges }: CardInfoProps) {
       <div className="flex flex-row gap-2">
         {link && <Access link={link} />}
         {github !== undefined && (
-          <ExternalLink href={github}>
+          <ExtLink href={github}>
             <IconGithub />
-          </ExternalLink>
+          </ExtLink>
         )}
       </div>
       <div className="flex flex-row flex-wrap gap-2">

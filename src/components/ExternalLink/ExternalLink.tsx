@@ -12,6 +12,7 @@ export function ExternalLink({ href, children }: ExternalLinkProps) {
       rel="noopener noreferrer "
     >
       {children}
+      <span className="visually-hidden">{href}</span>
     </a>
   );
 }

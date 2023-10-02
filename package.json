@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@tabler/icons-react": "^2.38.0",
+    "@vercel/analytics": "^1.0.2",
+    "global": "^4.4.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "vercel": "^32.3.1"
   },
   "devDependencies": {
     "@types/node": "latest",

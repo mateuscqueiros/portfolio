@@ -61,13 +61,27 @@
 
 .post pre code {
   background-color: transparent;
+  padding: 1rem;
 }
 
 .post pre {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   background-color: #fff;
-  padding: 1rem;
+
   border-radius: 0.2rem;
+  overflow-x: auto;
+}
+
+.post p code {
+  font-size: 0.9em;
+  background-color: var(--primary-color);
+  border: 1px solid var(--contrast-color);
+  padding: 2px 4px;
+  white-space: pre;
+}
+
+.footer hr {
+  opacity: 0.5;
 }
 
 @media (prefers-color-scheme: dark) {

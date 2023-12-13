@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat nisl 
 
 ![Alt text](https://picsum.photos/200/300 "a title")
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat nisl quis pellentesque porttitor. Maecenas sed tincidunt nisl. Pellentesque ac tortor non lectus hendrerit condimentum molestie ut justo.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. `Maecenas` volutpat nisl quis pellentesque porttitor. Maecenas sed tincidunt nisl. Pellentesque ac tortor non lectus hendrerit condimentum molestie ut justo.
 
 ```js
 function getValue(item: ContentWithValue): string {

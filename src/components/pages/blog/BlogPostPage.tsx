@@ -22,10 +22,10 @@ export function BlogPostPage({ post }: { post: PostData }) {
   return (
     <>
       <BlogHeader />
-      <main className="mt-10">
+      <main className="mt-10 px-5">
         <header className="max-w-3xl mx-auto mb-8">
           <h1 className="text-2xl font-bold mb-2">{postData.title}</h1>
-          <div className="text-sm text-gray-400">
+          <div className="text-sm text-gray-500">
             <span>Publicado em </span>
             <time data-time={postData.createdAt}>
               {format(createdAt, "dd 'de' MMMM 'de' yyyy", { locale: ptBR })}
@@ -35,7 +35,7 @@ export function BlogPostPage({ post }: { post: PostData }) {
 
         {postData.banner && (
           <img
-            className="max-w-4xl mx-auto my-6"
+            className="w-full max-w-4xl mx-auto my-6"
             src={postData.banner}
             alt=""
           />
@@ -46,7 +46,7 @@ export function BlogPostPage({ post }: { post: PostData }) {
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         ></article>
       </main>
-      <footer className="footer max-w-3xl mx-auto">
+      <footer className="footer max-w-3xl mx-auto px-6">
         <hr />
         <div className="my-6">
           <i>

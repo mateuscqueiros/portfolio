@@ -15,12 +15,16 @@ export function BlogPage({
   return (
     <>
       <BlogHeader />
-      <main className="max-w-4xl mx-auto">
+      <main className="max-w-4xl mx-auto px-6">
         {tags.length > 0 && (
           <i>
             <span className="mr-2">Resultados para:</span>
             {tags.map((tag) => (
-              <Link href={`/blog?tags=${tag}`} key="tag" className="mr-2">
+              <Link
+                href={`/blog?tags=${tag}`}
+                key="tag"
+                className="mr-2 text-link"
+              >
                 {tag}
               </Link>
             ))}

@@ -10,11 +10,14 @@ export function BlogPostPreview({ post }: { post: PostData }) {
         <span className="text-gray-700 dark:text-gray-400 text-sm">
           {format(post.createdAt, "dd 'de' MMMM 'de' yyyy", { locale: ptBR })}
         </span>
-        <Link className="w-fit" href={`/blog/${post.id}`}>
-          <h2 className="w-fit font-semibold text-xl shadow-blog-border border-secondary-color hover:shadow-blog-bg hover:border-b-0 dark:border-gray-700">
+        <h2>
+          <Link
+            className="display-inline w-fit text-xl font-semibold text-link"
+            href={`/blog/${post.id}`}
+          >
             {post.title}
-          </h2>
-        </Link>
+          </Link>
+        </h2>
       </div>
     </div>
   );

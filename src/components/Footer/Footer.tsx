@@ -1,13 +1,13 @@
-import { ExtLink } from "@/components/ExternalLink";
+import { ExtTextLink } from "@/components/ExternalLink";
 
 export function Footer() {
   return (
     <footer className="flex justify-center w-full mb-5 p-7">
       <p>
         Feito com &#60;3, Next.js e TailwindCSS. Deploy feito na Vercel. Ver{" "}
-        <ExtLink href="https://github.com/mateuscqueiros/portfolio">
+        <ExtTextLink href="https://github.com/mateuscqueiros/portfolio">
           código-fonte
-        </ExtLink>
+        </ExtTextLink>
         .
       </p>
     </footer>

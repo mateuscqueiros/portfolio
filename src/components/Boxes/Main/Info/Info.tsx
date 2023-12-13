@@ -1,5 +1,5 @@
 import { ButtonDefault } from "@/components/Buttons";
-import { ExtLink } from "@/components/ExternalLink";
+import { ExtTextLink } from "@/components/ExternalLink";
 import { H } from "@/components/Highlight";
 import { IconMail } from "@/components/Icons";
 import { socials } from "src/meta";
@@ -14,9 +14,9 @@ export function InfoBox() {
             Tenho estudado <H>Next 13</H> e migrado minhas aplicações para essa
             tecnologia. Recentemente me tornei um contribuidor{" "}
             <H bold>Open Source</H> para a biblioteca{" "}
-            <ExtLink href="https://github.com/mantinedev/mantine">
+            <ExtTextLink href="https://github.com/mantinedev/mantine">
               Mantine
-            </ExtLink>
+            </ExtTextLink>
             . Pretendo continuar estudando para me tornar um desenvolvedor
             melhor e futuramente um Engenheiro de Software!
           </p>

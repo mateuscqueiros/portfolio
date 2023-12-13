@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Mada";
+  font-weight: 400;
+  src: local("Mada"), url("/fonts/Mada/Mada-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mada";
+  font-weight: 600;
+  src: local("Mada"), url("/fonts/Mada/Mada-Bold.ttf") format("truetype");
+  font-display: swap;
+}

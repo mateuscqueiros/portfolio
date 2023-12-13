@@ -15,7 +15,7 @@ export function InfoBox() {
             tecnologia. Recentemente me tornei um contribuidor{" "}
             <H bold>Open Source</H> para a biblioteca{" "}
             <ExtLink href="https://github.com/mantinedev/mantine">
-              <H>Mantine</H>
+              Mantine
             </ExtLink>
             . Pretendo continuar estudando para me tornar um desenvolvedor
             melhor e futuramente um Engenheiro de Software!

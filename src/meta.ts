@@ -1,3 +1,4 @@
+import { IconGithub, IconLinkedin, IconMail } from "./components/Icons";
 import { Project } from "./types";
 
 export const projects: Project[] = [
@@ -49,15 +50,21 @@ export const projects: Project[] = [
 
 export const socials = {
   github: {
+    icon: IconGithub,
     name: "Github",
     link: "https://github.com/mateuscqueiros",
+    link2: "github.com/mateuscqueiros",
   },
   linkedin: {
+    icon: IconLinkedin,
     name: "Linkedin",
-    link: "https://www.linkedin.com/in/mateuscqueiros/",
+    link: "https://www.linkedin.com/in/mateuscqueiros",
+    link2: "linkedin.com/in/mateuscqueiros/",
   },
   email: {
+    icon: IconMail,
     name: "Email",
     link: "mailto:mateuscqueiros@gmail.com",
+    link2: "mateuscqueiros@gmail.com",
   },
 };

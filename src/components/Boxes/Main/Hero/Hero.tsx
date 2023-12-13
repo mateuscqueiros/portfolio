@@ -83,9 +83,7 @@ export function HeroBox() {
             desenvolvedor adaptável. Sou um desenvolvedor de software com foco
             no ecossistema <H>Node</H>, <H>Front-end</H> e <H>Back-end</H>.
             Confira os meus{" "}
-            <ExtLink href={socials.linkedin.link}>
-              <H>posts no Linkedin</H>
-            </ExtLink>{" "}
+            <ExtLink href={socials.linkedin.link}>posts no Linkedin</ExtLink>{" "}
             para ver o que estou estudando atualmente. Gosto muito de aprender
             novas tecnologias e estar por dentro das novidades.
           </p>

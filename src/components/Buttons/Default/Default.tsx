@@ -13,7 +13,7 @@ function ButtonContent({
 }) {
   return (
     <div
-      className={`bg-butoon-bg-color border-sm border-secondary-color rounded-md flex flex-row py-2 px-4 transition ease-in-out hover:bg-butoon-bg-hover-color hover:-translate-y-0.5 duration-300`}
+      className={`bg-button-bg-color border-sm border-secondary-color rounded-md flex flex-row py-2 px-4 transition ease-in-out hover:bg-button-bg-hover-color hover:-translate-y-0.5 duration-300`}
     >
       {icon}
       <div className="ml-2 !no-underline font-thin text-text-color">{text}</div>

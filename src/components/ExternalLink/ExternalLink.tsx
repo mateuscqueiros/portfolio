@@ -6,10 +6,10 @@ interface ExtLinkProps {
 export function ExtLink({ href, children }: ExtLinkProps) {
   return (
     <a
-      className="text-inherit"
+      className={`text-inherit`}
       href={href}
       target="_blank"
-      rel="noopener noreferrer "
+      rel="noopener noreferrer"
     >
       {children}
       <span className="visually-hidden">{href}</span>

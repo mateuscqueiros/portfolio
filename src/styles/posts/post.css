@@ -1,0 +1,77 @@
+.post h2,
+.post h2,
+.post h3,
+.post h4 {
+  margin-bottom: 0.5rem;
+}
+
+.post h2 {
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.post h3 {
+  font-family: Inter;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.post h4 {
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.post p {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+}
+
+.post h2 + p {
+  margin-top: 0;
+}
+
+.post p:has(> img) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.post li p:has(> a) {
+  margin: 0;
+}
+
+.post a {
+  box-shadow: var(--blog-border-shadow);
+}
+
+.post a:hover {
+  box-shadow: var(--blog-bg-shadow);
+}
+
+.post ul {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.post ul li {
+  list-style-type: disc;
+  margin-bottom: 0.2rem;
+}
+
+.post pre code {
+  background-color: transparent;
+}
+
+.post pre {
+  margin: 1rem 0;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post pre {
+    background-color: #07111a;
+  }
+}

@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Nats";
+  font-weight: 400;
+  src: local("Nats"), url("/fonts/Nats/Nats-Regular.ttf") format("truetype");
+  font-display: swap;
+}

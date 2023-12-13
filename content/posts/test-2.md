@@ -7,8 +7,6 @@ author: Mateus Queirós
 # banner: https://picsum.photos/1000/500
 ---
 
-## Feroces iam mota fatis cuspis ferioque nec
-
 Lorem markdownum ore hoc est membra cui mulcet coepto, est fixerat fluctus. Ut
 Sole nostris aequoris iam, _nec addita_ cuius in sint comites quodque et. Tuus
 laurus nomen iunctis, non vulnera pater est est. Erat loquor illum, non et

@@ -46,8 +46,9 @@ Tenho estudado muito Ruby ultimamente. Aqui estão alguns dos recursos que mais 
 
 ### Quotes
 
-- “As developers, we *want* to start with all our tests failing. If they were all green and running, there would be nothing for us to do.”
-  — Rony Shabo on [his Medium article](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e)
+> "As developers, we *want* to start with all our tests failing. If they were all green and running, there would be nothing for us to do."
+>
+> &mdash; <cite>Rony Shabo on [his Medium article](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e)</cite>
 
 ### Other
 

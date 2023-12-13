@@ -49,14 +49,21 @@
   box-shadow: var(--blog-bg-shadow);
 }
 
-.post ul {
+.post ul,
+.post ol {
   padding: 1rem;
   padding-top: 0;
+}
+.post li {
+  margin-bottom: 0.2rem;
 }
 
 .post ul li {
   list-style-type: disc;
-  margin-bottom: 0.2rem;
+}
+
+.post ol li {
+  list-style-type: decimal;
 }
 
 .post pre code {
@@ -78,6 +85,32 @@
   border: 1px solid var(--contrast-color);
   padding: 2px 4px;
   white-space: pre;
+}
+
+.post blockquote {
+  position: relative;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  padding-left: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.post blockquote::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 10px;
+  left: 0;
+  top: 0;
+  background-color: var(--blog-border);
+}
+
+.post blockquote p:first-child:nth-last-child(2) ~ p {
+  font-style: italic;
+}
+
+.post blockquote p {
+  margin: 0;
 }
 
 .footer hr {
